@@ -1,0 +1,208 @@
+<html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Hoja con Franja Azul, Imagen y Texto</title>
+<script src="https://kit.fontawesome.com/2757fdb248.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      margin: 0;
+       padding: 40px;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      
+      height: 100vh;
+    }
+
+    .hoja {
+      width: 21cm;
+      height: 29.7cm;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      display: flex;
+     
+      box-sizing: border-box;
+
+    }
+
+
+.container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 1cm;   /* Margen arriba de la hoja */
+      padding-bottom: 2cm; /* Margen debajo de la hoja */
+    }
+
+    .franja-azul {
+      width: 8cm;
+      background-color: #007bff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1cm 0.5cm;
+      box-sizing: border-box;
+      color: white;
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    .franja-azul img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1cm;
+    }
+
+
+
+    .contenido {
+     flex-grow: 1;
+      padding: 2cm;
+      box-sizing: border-box;
+ position: relative;
+    }
+
+.linea-horizontal {
+      width: 100%;
+      height: 0.6cm;
+      background-color: #007bff;
+      margin: 0.3cm 0;
+position: relative;
+      
+    }
+
+
+.iconos {
+      display: flex;
+      
+align-items: center;
+    gap: 15px;
+    }
+
+   
+
+.linea-horizontal-de-franja{
+      width: 80%;
+      height: 1cm;
+      background-color: #064b91;
+      margin: 0.3cm 0;
+position: relative;
+
+    }
+
+
+.linea-horizontal-de-franja::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: -19px;
+      width: 0;
+      height: 0;
+      border-top: 0.5cm solid transparent;
+      border-bottom: 0.5cm solid transparent;
+      border-left: 19.5px solid #064b91;
+    }
+
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="hoja">
+    <div class="franja-azul">
+      <img src="C:\Users\jenni\Downloads\WhatsApp Image 2025-06-15 at 5.36.32 PM.jpeg" alt="Logo o Imagen">
+      
+<div class="linea-horizontal-de-franja">Contacto</div>
+<br>
+
+<div class="iconos">
+        <i class="fa-solid fa-phone-volume fa-beat fa-2xl" style="color: #0a285c;"></i>
+        <span>Teléfono</span>
+
+
+      </div>
+
+<p>9959-1339</p>
+<br>
+<br>
+<br>
+
+      <div class="iconos">
+        <i class="fa-solid fa-envelope fa-beat fa-2xl" style="color: #032359;"></i>
+        <span>Correo</span>
+      </div>
+<p>jennifermaricela<br>galo@gmail.com</p>
+<br>
+<br>
+<br>
+      <div class="iconos">
+        <i class="fa-solid fa-location-dot fa-beat fa-2xl" style="color: #012056;"></i>
+        <span>Dirección</span>
+      </div>
+<p>La valencia, Rio Lindo Cortes<p/>
+
+<div class="linea-horizontal-de-franja">Mas Informacion</div>
+<p>MADRE<br>Linda Maricela Avila Sabillon
+
+<br>
+<br>PADRE<br>
+Josué Simón Galo Franco<br>
+<br>
+HERMANO<br>
+Josué Antonio Galo Avila
+</p><br>
+
+    </div>
+
+    <div class="contenido">
+      <h1>Jennifer Maricela Galo Avila </h1>
+<h5>15 de Junio del año 2025 </h5>
+
+
+<div class="linea-horizontal">
+<h4>Sobre Mi</h4>
+</div>
+<p>Soy una persona apasionada y comprometida con todo lo que hago. Disfruto trabajar en equipo, donde puedo colaborar y aportar mis ideas mientras aprendo de los demás. Me considero responsable y honesta, valores que guían tanto mi vida personal como profesional. Además, tengo una gran capacidad de adaptación y siempre buscar nuevas formas de superar desafíos.</p>
+
+<div class="linea-horizontal">
+<h4>Perfil Profesional</h4>
+</div>
+<p>Estoy por optar mi titulo de ingenieria en sistemas computacionales con una sólida formación. Con una pasión por la tecnología y la resolución de problemas, desarrolló habilidades en programación, gestión de sistemas y soporte técnico.<br>Además, estoy comprometida con el aprendizaje continuo y la actualización de mis habilidades en un campo que evoluciona rápidamente.</p>
+
+<div class="linea-horizontal">
+<h4>Datos Academicos</h4>
+</div>
+<p>JARDIN DE NIÑOS JUANA ENRIQUETA PINEDA<br>Educación Inicial | Enero 2012<br>
+<br>
+ESCUELA RAUL ZALDIVAR<br>
+Educación Primaria | Enero 2013 - Noviembre 2018
+<br>
+<br>
+INSTITUTO GUBERNAMENTAL TECNICO MANUEL DE JESUS SUBIRANA
+<br>
+Educacion Secundaria | Enero 2019 - Noviembre 2024 </p>
+
+<div class="linea-horizontal">
+<h4>Habilidades</h4>
+<ul>
+<li>Comunicación Efectiva</li>
+<li>Empatía</li>
+<li>Creatividad</li>
+<li>Adaptabilidad</li>
+<li>Autodisciplina</li>
+<li>Responsabilidad</li>
+<li>Colaboración</li>
+<li>Pensamiento Crítico</li>
+<li>Organización</li>
+<li>Curiosidad</li>
+</ul>
+      
+    </div>
+</div>
+    </div>
+  </div>
+
+</body>
+
+</html>
